@@ -12,8 +12,7 @@ def speak_to_grandma(phrase)
       return "NO, NOT SINCE 1938!"
     # NO, NOT SINCE 1938!
     else
-  		return "NO, NOT SINCE 1938!"
-    end
+  		return "HUH?! SPEAK UP, SONNY!"
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
 end
