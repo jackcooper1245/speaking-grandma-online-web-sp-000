@@ -1,16 +1,12 @@
-def speak_to_grandma(phrase)
+def speak_to_grandma(phrase = "HUH?! SPEAK UP, SONNY!")
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
+return phrase
+elsif phrase == phrase.upcase
+return "NO"
 # unless you shout it (type in all capitals).
-    if phrase == "I LOVE YOU GRANDMA!"
-      return "I LOVE YOU TOO PUMPKIN!"
     # If you shout, she can hear you (or at least she thinks so)
     # and yells back
-    elsif phrase == phrase.upcase
-      return
-    elsif phrase == phrase.downcase
-      return "HUH?! SPEAK UP, SONNY!"
-    end
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
 end
